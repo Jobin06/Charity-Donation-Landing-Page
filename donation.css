@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fffaf5;
+    color: #333;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #d94f4f;
+    color: white;
+}
+.header nav a {
+    margin: 0 0.8rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    background: url('https://images.unsplash.com/photo-1532629345422-7515f3d16bb6') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.hero p {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+.cta-btn {
+    background: #ff9800;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+.cta-btn:hover {
+    background: #e68a00;
+}
+
+/* Section Images */
+.section-img {
+    width: 100px;
+    height: 100px;
+    max-width: 700px; 
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+/* Icons in Stats */
+.icon-img {
+    width: 175px;
+    height: 175px;
+    margin-bottom: 0.5rem;
+}
+
+/* About, Impact, Donation Tiers, Testimonials */
+.about, .impact, .donation-tiers, .testimonials {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+/* Impact Stats */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.stats div {
+    margin: 1rem;
+    flex: 1 1 200px;
+}
+.progress-bar {
+    background: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 10px;
+    margin-top: 0.5rem;
+}
+.progress {
+    background: #d94f4f;
+    height: 100%;
+}
+
+/* Donation Tiers */
+.tiers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+.tier {
+    background: white;
+    padding: 1.5rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1 1 200px;
+}
+.tier h3 {
+    color: #d94f4f;
+}
+
+/* Donation Form */
+.donation-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+.donation-form label {
+    text-align: left;
+    margin-top: 0.5rem;
+}
+.donation-form input, .donation-form button {
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.donation-form button {
+    background: #d94f4f;
+    color: white;
+    border: none;
+}
+.donation-form button:hover {
+    background: #b93f3f;
+}
+
+/* Testimonials */
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background: white;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 300px;
+}
+.profile-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+.footer {
+    background: #d94f4f;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+    .stats, .tiers, .testimonial-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
