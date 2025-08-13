@@ -1,0 +1,55 @@
+Charity Donation Landing Page
+Project Overview
+The Charity Donation Landing Page is a single-page website designed for a fictional charity or non-profit organization.
+Its goal is to convey the mission, evoke emotions, and encourage donations through effective visual hierarchy and compelling storytelling.
+This project demonstrates how to create an emotionally appealing and user-friendly donation page using HTML5 and CSS3 with responsive design principles.
+
+Objectives
+•	Create a focused, visually appealing landing page that encourages donations.
+•	Highlight the organization's cause with clear calls-to-action (CTA).
+•	Display impact statistics, testimonials, and donation options clearly.
+•	Strengthen persuasive storytelling with structured content and emotional design.
+
+Expected Learning Outcomes
+By building this project, you will:
+•	Understand mission-driven landing page design.
+•	Organize content for persuasive storytelling and donation prompts.
+•	Apply visual emphasis techniques on forms and CTAs.
+•	Improve usage of HTML/CSS layout structures (Flexbox/Grid) for responsive, engaging pages.
+
+Project Structure
+project-folder/
+│── index.html
+│── css/
+│ └── donation.css
+│── assets/
+│ └── images/ (all image files used in the project)
+│── README.txt
+
+
+
+
+Page Sections
+1.	Header – Logo, navigation menu, and tagline.
+2.	Hero Section – Impactful banner image with mission statement.
+3.	About Section – Brief details about the charity and its goals.
+4.	Impact Stats – Key figures and success metrics (optional progress bar).
+5.	Donation Tiers – Predefined donation amounts with associated benefits.
+6.	Testimonials – 2–3 quotes from supporters with images.
+7.	Call to Action – Prominent "Donate Now" button and donation form.
+8.	Footer – Social media links, contact details, and additional navigation.
+
+Design Guidelines
+•	Warm, compassionate color scheme.
+•	Use real imagery or impactful illustrations.
+•	Clear, visually prominent CTA buttons.
+•	Mobile-responsive design using Flexbox or Grid.
+•	Styled donation form (non-functional for demo purposes).
+•	CSS hover states and basic transitions for interactivity.
+
+Technical Requirements
+•	HTML5 for structure.
+•	CSS3 for styling.
+•	Flexbox/Grid for responsive layouts.
+•	Donation form (non-functional).
+•	Basic animations and hover effects.
